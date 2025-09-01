@@ -1,0 +1,8 @@
+const html = '<h2 id="tabs-attributes" tabindex="-1">Tabs Attributes <a class="header-anchor" href="#tabs-attributes" aria-hidden="true">#</a></h2>\n<table>\n<thead>\n<tr>\n<th>Name</th>\n<th>Description</th>\n<th>Type</th>\n<th>Accepted Values</th>\n<th>Default</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>model-value / v-model</td>\n<td>binding value, name of the selected tab</td>\n<td>string / number</td>\n<td>—</td>\n<td>name of first tab</td>\n</tr>\n<tr>\n<td>type</td>\n<td>type of Tab</td>\n<td>string</td>\n<td>card/border-card</td>\n<td>—</td>\n</tr>\n<tr>\n<td>closable</td>\n<td>whether Tab is closable</td>\n<td>boolean</td>\n<td>—</td>\n<td>false</td>\n</tr>\n<tr>\n<td>addable</td>\n<td>whether Tab is addable</td>\n<td>boolean</td>\n<td>—</td>\n<td>false</td>\n</tr>\n<tr>\n<td>editable</td>\n<td>whether Tab is addable and closable</td>\n<td>boolean</td>\n<td>—</td>\n<td>false</td>\n</tr>\n<tr>\n<td>tab-position</td>\n<td>position of tabs</td>\n<td>string</td>\n<td>top/right/bottom/left</td>\n<td>top</td>\n</tr>\n<tr>\n<td>stretch</td>\n<td>whether width of tab automatically fits its container</td>\n<td>boolean</td>\n<td>-</td>\n<td>false</td>\n</tr>\n<tr>\n<td>before-leave</td>\n<td>hook function before switching tab. If <code>false</code> is returned or a <code>Promise</code> is returned and then is rejected, switching will be prevented</td>\n<td>Function(activeName, oldActiveName)</td>\n<td>—</td>\n<td>—</td>\n</tr>\n</tbody>\n</table>\n';
+const frontmatter = {};
+const relativePath = "src\\components\\Navigation\\Tabs\\tabs.story.md";
+export {
+  frontmatter,
+  html,
+  relativePath
+};
