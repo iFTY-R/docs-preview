@@ -28,7 +28,7 @@ const docsConfig = {
     {
       title: "Element UI",
       description: "Element UI 是一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库。",
-      url: "./element-ui/#/zh-CN/component/installation",
+      url: "http://localhost:8890/element-ui#/zh-CN/component/installation",
       buttonText: "查看文档",
     },
     {
